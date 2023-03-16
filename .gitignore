@@ -16,3 +16,7 @@ _includes/notes_graph.json
 
 # Sublime Text
 *.sublime-workspace
+
+# Ugh.
+Thumbs.db
+.DS_Store
