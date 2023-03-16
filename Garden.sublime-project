@@ -1,0 +1,10 @@
+{
+    "folders":
+    [
+        {
+            "file_exclude_patterns": ["_includes/notes_graph.json"],
+            "folder_exclude_patterns": ["_site", ".sass*", ".jekyll*", ".obsidian"],
+            "path": ".",
+        },
+    ]
+}

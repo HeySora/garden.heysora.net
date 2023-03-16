@@ -13,3 +13,6 @@ _includes/notes_graph.json
 
 # Obsidian config
 .obsidian/
+
+# Sublime Text
+*.sublime-workspace
