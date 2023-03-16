@@ -41,6 +41,7 @@ Sections
 body {
   margin: 0; /* 1 */
   font-family:
+    'SuisseIntl',
     system-ui,
     'Segoe UI',
     Roboto,
@@ -98,13 +99,15 @@ kbd,
 samp,
 pre {
   font-family:
+    'SuisseIntlMono',
     ui-monospace,
     SFMono-Regular,
     Consolas,
     'Liberation Mono',
     Menlo,
     monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  //font-size: 1em; /* 2 */
+  font-size: 1rem;
 }
 
 /**

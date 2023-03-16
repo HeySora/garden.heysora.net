@@ -1,8 +1,8 @@
-$color-primary: hsl(0, 0%, 10%);
-$color-text: hsl(0, 0%, 20%);
-$color-subtext: hsl(0, 0%, 30%);
-$color-border: hsl(0, 0%, 85%);
-$color-box-background: mix($color-primary, white, 4%);
+$color-primary: #cdd;
+$color-text: hsl(0, 0%, 72%);
+$color-subtext: hsl(0, 0%, 60%);
+$color-border: #184248;
+$color-box-background: #092124;//mix($color-primary, black, 4%);
 $border-radius: 4px;
 
 body {
@@ -17,6 +17,8 @@ body {
   @media (min-width: 820px) {
     font-size: 1.2rem;
   }
+
+  background: #07181a;
 }
 
 h1 {
@@ -64,6 +66,11 @@ hr {
   background: $color-border;
 }
 
+mark {
+  background: none;
+  color: #6bc;
+}
+
 h1,
 h2,
 h3,
@@ -76,21 +83,22 @@ h6 {
 }
 
 a {
-  transition: background 300ms;
+  transition: background 0.15s, color 0.15s;
   padding: 0 0.1em;
   text-decoration: none;
   border-bottom: 1px solid $color-border;
   color: $color-primary;
+  background: #092124;
   &:hover {
-    color: black !important;
-    background: #fffaf1;
+    color: #fff !important;
+    background: #245;
   }
   &:after {
     position: relative;
     top: -0.5em;
     font-size: 0.7em;
     content: "↗";
-    color: #aaaaaa;
+    color: #3dd4e6;
   }
   &.internal-link:after,
   &.footnote:after,
@@ -100,8 +108,8 @@ a {
 }
 
 *:focus {
-  background: #ffe8bc !important;
-  color: black !important;
+  background: #245 !important;
+  color: #fff !important;
 }
 
 nav {
@@ -128,19 +136,19 @@ nav {
 }
 
 code {
-  background: #f5f5f5;
+  color: #f8f8f2;
   padding: 0.1em 0.2em;
   border-radius: 4px;
 }
 
 .invalid-link {
-  color: #444444;
+  color: #888;
   cursor: help;
-  background: #fafafa;
+  background: #092124;
   padding: 0 0.1em;
 }
 
 .invalid-link-brackets {
-  color: #ccc;
+  color: #555;
   cursor: help;
 }

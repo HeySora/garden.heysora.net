@@ -1,0 +1,20 @@
+/*! These fonts are proprietary! Do not use without permission. */
+
+@mixin single-suisse-font($family, $weight: 400, $name: 'Regular', $style: normal) {
+    @font-face {
+        font-family: $family;
+        src: url('https://www.heysora.net/fonts/#{$family}-#{$name}-WebS.woff2') format('woff2'),
+             url('https://www.heysora.net/fonts/#{$family}-#{$name}-WebS.woff') format('woff');
+        font-weight: $weight;
+        font-style: $style;
+        font-display: swap;
+    }
+}
+
+@include single-suisse-font('SuisseIntl', 400, 'Regular', normal);
+@include single-suisse-font('SuisseIntl', 400, 'RegularItalic', italic);
+@include single-suisse-font('SuisseIntl', 600, 'SemiBold', normal);
+@include single-suisse-font('SuisseIntl', 600, 'SemiBoldItalic', italic);
+
+@include single-suisse-font('SuisseIntlMono', 400, 'Regular', normal);
+@include single-suisse-font('SuisseIntlMono', 600, 'SemiBold', normal);
