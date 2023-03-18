@@ -18,7 +18,7 @@ body {
     font-size: 1.2rem;
   }
 
-  background: #07181a;
+  background-color: #07181a;
 }
 
 h1 {
@@ -88,10 +88,10 @@ a {
   text-decoration: none;
   border-bottom: 1px solid $color-border;
   color: $color-primary;
-  background: #092124;
+  background-color: #092124;
   &:hover {
     color: #fff !important;
-    background: #245;
+    background-color: #245;
   }
   &:after {
     position: relative;
@@ -108,7 +108,7 @@ a {
 }
 
 *:focus {
-  background: #245 !important;
+  background-color: #245 !important;
   color: #fff !important;
 }
 
@@ -144,7 +144,7 @@ code {
 .invalid-link {
   color: #888;
   cursor: help;
-  background: #092124;
+  background-color: #092124;
   padding: 0 0.1em;
 }
 
