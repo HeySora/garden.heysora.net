@@ -26,6 +26,24 @@ The easiest way to get started is to read this [step-by-step guide explaining ho
   {% endfor %}
 </ul>
 
+<hr />
+
+**Don't know where to start?** Here are a few tags to get started.
+
+{% assign recommended_tags = "web,meta" | split: ',' %}
+{% for tag in recommended_tags %}
+##### Recent <span class="tag">{{ tag }}</span> pages
+  <ul>
+    {% assign tag_notes = site.notes | where: 'tags', tag | sort: "last_modified_at_timestamp" | reverse %}
+    {% for note in tag_notes limit: 5 %}
+      <li>
+        {{ note.last_modified_at | date: "%Y-%m-%d" }} — <a class="internal-link" href="{{ note.url }}">{{ note.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
+
 <style>
   .wrapper {
     max-width: 46em;
