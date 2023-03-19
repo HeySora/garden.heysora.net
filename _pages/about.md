@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about
 ---
 
-*This is an about page.*
+# Hey! 🦊
 
-Feel free to tell the world about what you love! 😍
+*WIP!*

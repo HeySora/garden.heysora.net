@@ -5,17 +5,17 @@ id: home
 permalink: /
 ---
 
-# Welcome! 🌱
+# Hey! 🦊
 
-<p style="padding: 3em 1em; background: #092124; border-radius: 4px;">
-  Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
-</p>
+This garden is an early Work in Progress! Feel free to take a look at **[[garden-plans|my current plans]]**.
 
-This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
+<hr />
 
-The easiest way to get started is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
+{% include notes_graph.html %}
 
-<strong>Recently updated notes</strong>
+<hr />
+
+**Recently updated notes**
 
 <ul>
   {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
