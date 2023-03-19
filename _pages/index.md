@@ -48,4 +48,9 @@ The easiest way to get started is to read this [step-by-step guide explaining ho
   .wrapper {
     max-width: 46em;
   }
+  body {
+    /*! Background by Fancybird! */
+    background: #07181a url(/assets/home-bg.png) no-repeat center center fixed;
+    background-size: contain;
+  }
 </style>
