@@ -2,7 +2,7 @@ $color-primary: #cdd;
 $color-text: hsl(0, 0%, 72%);
 $color-subtext: hsl(0, 0%, 60%);
 $color-border: #1b4950;
-$color-box-background: #0c2a2e;//mix($color-primary, black, 4%);
+$color-box-background: #0c2a2e80;//mix($color-primary, black, 4%);
 $border-radius: 4px;
 
 body {
@@ -18,7 +18,9 @@ body {
     font-size: 1.2rem;
   }
 
-  background-color: #07181a;
+  /*! Background by Fancybird! */
+  background: #07181a url(/assets/bg.png) no-repeat center center fixed;
+  background-size: contain;
 }
 
 h1 {
@@ -92,7 +94,7 @@ a {
   text-decoration: none;
   border-bottom: 1px solid $color-border;
   color: $color-primary;
-  background-color: #0c2a2e;
+  background-color: $color-box-background;
   padding: 0.125rem 0.25rem;
   &:hover {
     color: #fff !important;
@@ -145,7 +147,7 @@ nav {
 }
 
 .tag {
-  background-color: #0c2a2e;
+  background-color: $color-box-background;
   border-radius: 3px;
   padding: 0.25rem;
   margin: 0.125rem;
@@ -160,7 +162,7 @@ code {
 .invalid-link {
   color: #888;
   cursor: help;
-  background-color: #0c2a2e;
+  background-color: $color-box-background;
   padding: 0 0.1em;
 }
 
