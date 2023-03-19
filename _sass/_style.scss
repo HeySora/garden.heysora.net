@@ -1,8 +1,8 @@
 $color-primary: #cdd;
 $color-text: hsl(0, 0%, 72%);
 $color-subtext: hsl(0, 0%, 60%);
-$color-border: #184248;
-$color-box-background: #092124;//mix($color-primary, black, 4%);
+$color-border: #1b4950;
+$color-box-background: #0c2a2e;//mix($color-primary, black, 4%);
 $border-radius: 4px;
 
 body {
@@ -77,9 +77,13 @@ h3,
 h4,
 h5,
 h6 {
-  line-height: 1.3;
+  line-height: 1.4;
   margin-bottom: 0;
   padding-bottom: 0;
+}
+
+h3, h4, h5, h6 {
+  font-weight: normal;
 }
 
 a {
@@ -88,7 +92,8 @@ a {
   text-decoration: none;
   border-bottom: 1px solid $color-border;
   color: $color-primary;
-  background-color: #092124;
+  background-color: #0c2a2e;
+  padding: 0.125rem 0.25rem;
   &:hover {
     color: #fff !important;
     background-color: #245;
@@ -105,6 +110,10 @@ a {
   &.reversefootnote:after {
     content: "";
   }
+}
+
+.footnotes {
+  font-size: 0.8em;
 }
 
 *:focus {
@@ -135,6 +144,13 @@ nav {
   border-radius: $border-radius;
 }
 
+.tag {
+  background-color: #0c2a2e;
+  border-radius: 3px;
+  padding: 0.25rem;
+  margin: 0.125rem;
+}
+
 code {
   color: #f8f8f2;
   padding: 0.1em 0.2em;
@@ -144,7 +160,7 @@ code {
 .invalid-link {
   color: #888;
   cursor: help;
-  background-color: #092124;
+  background-color: #0c2a2e;
   padding: 0 0.1em;
 }
 
