@@ -1,5 +1,5 @@
 $color-primary: #cdd;
-$color-text: hsl(0, 0%, 72%);
+$color-text: #bbb;
 $color-subtext: hsl(0, 0%, 60%);
 $color-border: #1b4950;
 $color-box-background: #0c2a2e80;//mix($color-primary, black, 4%);
@@ -84,7 +84,12 @@ h6 {
   padding-bottom: 0;
 }
 
-h3, h4, h5, h6 {
+h3 {
+  font-weight: 500;
+  font-size: 1.21em;
+}
+
+h4, h5, h6 {
   font-weight: normal;
 }
 
@@ -151,6 +156,14 @@ nav {
   border-radius: 3px;
   padding: 0.25rem;
   margin: 0.125rem;
+}
+
+.nobr {
+  white-space: nowrap;
+}
+
+.tone-down {
+  filter: brightness(0.8);
 }
 
 code {
