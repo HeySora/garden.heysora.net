@@ -1,6 +1,7 @@
 ---
 title: Social media are a hell of a poison
 short-title: Social media are bad
+subtitle: And why you should not feel bad about being trapped in there.
 tags: social
 ---
 
