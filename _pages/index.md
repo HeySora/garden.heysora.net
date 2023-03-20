@@ -7,7 +7,7 @@ permalink: /
 
 # Hey! 🦊
 
-This garden is an early Work in Progress! Feel free to take a look at **[[garden-plans|my current plans]]**.
+This garden is an early Work in Progress! Feel free to take a look at **[[garden-origins|the origins]]** and **[[garden-plans|my current plans]]** for this garden.
 
 <hr />
 
