@@ -3,7 +3,6 @@ $color-text: #bbb;
 $color-subtext: hsl(0, 0%, 60%);
 $color-border: #1b4950;
 $color-box-background: #0c2a2e80;//mix($color-primary, black, 4%);
-$border-radius: 4px;
 
 body {
   margin: 0 auto;
@@ -45,7 +44,6 @@ img {
   display: block;
   margin: 0 auto;
   max-height: 75vh;
-  border-radius: $border-radius;
 }
 
 blockquote {
@@ -53,7 +51,7 @@ blockquote {
   margin: 0;
   font-size: 0.88em;
   background: $color-box-background;
-  border-radius: $border-radius;
+  border-left: 2px solid #1b4950;
 
   p {
     margin: 0;
@@ -148,7 +146,6 @@ nav {
 .backlink-box {
   background: $color-box-background;
   padding: 1em;
-  border-radius: $border-radius;
 }
 
 .tag {
@@ -166,10 +163,19 @@ nav {
   filter: brightness(0.8);
 }
 
+.text-center {
+  display: block;
+  text-align: center;
+}
+
+.text-right {
+  display: block;
+  text-align: right;
+}
+
 code {
   color: #f8f8f2;
   padding: 0.1em 0.2em;
-  border-radius: 4px;
 }
 
 .invalid-link {
