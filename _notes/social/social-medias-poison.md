@@ -1,5 +1,6 @@
 ---
 title: Social media are a hell of a poison
+short-title: Social media are bad
 tags: social
 ---
 
