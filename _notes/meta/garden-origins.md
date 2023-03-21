@@ -6,7 +6,7 @@ tags: meta
 ### Hi there! 👋
 Welcome to my digital garden. I'm aiming for this place to be a comfy place for myself to write about whatever crosses my mind.
 
-I always love writing lengthy posts about any topic anyone is interested in. However, a few problems have been occuring more and more, because of the fact that the vast majority of these talks were happening through Discord:
+I always love writing lengthy posts about any topic anyone is interested in. However, a few problems have been occurring more and more, because of the fact that the vast majority of these talks were happening through Discord:
 - While the platform has obvious discoverability issues, its lack of proper tools for writing text also plays a lot.
 - When something similar was being asked by different parties, it was often cumbersome to find again something I had written a long time ago, to then carefully copy parts by parts (as there often was screenshots between messages).
 - At the end of the day, some people actually were *porting* some of my guides over other platforms, like [Notion](https://www.notion.so/product). So why bother writing them in Discord in the first place?
