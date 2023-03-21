@@ -7,7 +7,7 @@ $color-box-background: #0c2a2e80;//mix($color-primary, black, 4%);
 body {
   margin: 0 auto;
   line-height: 1.7;
-  padding: 3em 3.5em;
+  padding: 2em 1em;
   overflow-x: hidden;
   color: $color-text;
   font-size: 1rem;
@@ -15,6 +15,7 @@ body {
 
   @media (min-width: 820px) {
     font-size: 1.2rem;
+    padding: 3em 3.5em;
   }
 
   /*! Background by Fancybird! */
@@ -82,12 +83,15 @@ h6 {
   padding-bottom: 0;
 }
 
-h3 {
+h3, h4 {
   font-weight: 500;
+}
+
+h3 {
   font-size: 1.21em;
 }
 
-h4, h5, h6 {
+h5, h6 {
   font-weight: normal;
 }
 
@@ -137,7 +141,7 @@ nav {
     "content"
     "side";
 
-  @media (min-width: 700px) {
+  @media (min-width: 768px) {
     grid-template-columns: 3fr 1fr;
     grid-template-areas: "content side";
   }
@@ -177,9 +181,15 @@ code {
   letter-spacing: -0.5px;
 }
 
+/* code blocks */
 pre code {
   color: #f8f8f2;
   padding: 0.1em 0.2em;
+}
+
+/* inline mono */
+code.highlighter-rouge {
+  word-break: break-word;
 }
 
 .invalid-link {

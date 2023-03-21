@@ -5,13 +5,14 @@ div.highlight  {
   font-size: 0.9em;
   overflow: auto;
   margin: 1em -1em;
+  display: grid;
   code{
     padding: 0;
   }
 }
 
-div.highlight {
-  display: grid;
+pre.highlight {
+    overflow-x: auto;
 }
 
     .highlight .c { color: #868d82; font-style: italic } /* Comment */
