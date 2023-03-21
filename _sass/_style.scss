@@ -7,11 +7,11 @@ $color-box-background: #0c2a2e80;//mix($color-primary, black, 4%);
 body {
   margin: 0 auto;
   line-height: 1.7;
-  padding: 4vh 6vw;
+  padding: 3em 3.5em;
   overflow-x: hidden;
   color: $color-text;
   font-size: 1rem;
-  max-width: 63em;
+  max-width: 62em;
 
   @media (min-width: 820px) {
     font-size: 1.2rem;
@@ -132,7 +132,7 @@ nav {
 
 #notes-entry-container {
   display: grid;
-  grid-gap: 2em;
+  grid-gap: 1.5em;
   grid-template-areas:
     "content"
     "side";
