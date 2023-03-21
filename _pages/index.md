@@ -42,10 +42,3 @@ This garden is an early Work in Progress! Feel free to take a look at **[[garden
     {% endfor %}
   </ul>
 {% endfor %}
-
-
-<style>
-  .wrapper {
-    max-width: 46em;
-  }
-</style>
