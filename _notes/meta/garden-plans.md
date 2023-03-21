@@ -6,7 +6,7 @@ tags: meta
 There's so much I want to write about that it's really hard to pick what to start with. Even in the context of [[garden-origins|a digital garden]], where you don't have to finish a note you're working on... *you still have to start somewhere.*
 
 As a start, I asked a few friends about which topics I'm knowledgeable about, and/or topics they would enjoy reading if I wrote about them (without talking about this digital garden yet). Here are all the responses:
-- **Code Optimisation in Web**: How to optimize groundbreaking experiences and keep those running well. *— Shinu*{: .nobr}
+- **[[web-optimisations|Code Optimisation in Web]]**: How to optimize groundbreaking experiences and keep those running well. *— Shinu*{: .nobr}
 - **How to make in-game downloadable content**: Explaining the basics of serving additional assets for a game over the web, and optionally securing the transfer. *— Ky_Dash*{: .nobr}
 - **How Cloud infrastructures work**: How environments such as [OpenStack](https://www.openstack.org/) can be used to migrate off your own monoserver to a much more convenient infrastructure. *— oatmealine*{: .nobr}
 - **My process behind making Web design**: How do I start from nothing and end up with a website with neat effects and backgrounds without sacrificing UX. *— TaroNuke*{: .nobr}
