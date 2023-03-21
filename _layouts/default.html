@@ -9,5 +9,12 @@
     </div>
 
     {% include link-previews.html wrapperQuerySelector="content" %}
+    <script defer>
+      // Infuriating... https://github.com/rouge-ruby/rouge/issues/1934
+      const kw = ['case','catch','delete','else','for','if','in','return','super','switch','throw','typeof','void','while','yield'];
+      for (const elem of document.getElementsByClassName('nf'))
+        if (kw.includes(elem.textContent.trim()))
+          elem.className = 'k';
+    </script>
   </body>
 </html>
