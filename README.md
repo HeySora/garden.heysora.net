@@ -1,8 +1,8 @@
-# Sora's garden 🦊
+# Sora's garden 🐶
 
 Just a cozy corner of mine, where I want to write about my knowledge, whether it is technical or not.
 
-This website is automatically deployed [via GitHub Pages](.github/workflows/jekyll.yml) to [garden.heysora.net](https://garden.heysora.net). It runs [Jekyll 4](https://jekyllrb.com).  
+~~This website is automatically deployed [via GitHub Pages](.github/workflows/jekyll.yml) to [garden.heysora.net](https://garden.heysora.net).~~ It runs [Jekyll 4](https://jekyllrb.com).  
 I'm currently using [Obsidian](https://obsidian.md/) to write my notes, and [Sublime Text](https://sublimetext.com) to edit the site's code.
 
 
