@@ -17,6 +17,14 @@ _includes/notes_graph.json
 # Sublime Text
 *.sublime-workspace
 
+# JetBrains
+/.idea/*
+!/.idea/.gitignore
+!/.idea/codeStyles
+!/.idea/inspectionProfiles
+!/.idea/runConfigurations
+!/.idea/vcs.xml
+
 # Ugh.
 Thumbs.db
 .DS_Store
