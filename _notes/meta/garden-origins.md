@@ -3,7 +3,12 @@ title: Garden's origins
 tags: meta
 ---
 
-### Hi there! 👋
+This is a quick addendum to say that it is worth giving [[2025]] a read for more updated news.  
+What follows below has been written on March 21, 2023.
+
+---
+
+### Hi there! 🐾
 Welcome to my digital garden. I'm aiming for this place to be a comfy place for myself to write about whatever crosses my mind.
 
 I always love writing lengthy posts about any topic anyone is interested in. However, a few problems have been occurring more and more, because of the fact that the vast majority of these talks were happening through Discord:
