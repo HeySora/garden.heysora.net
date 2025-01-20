@@ -47,6 +47,12 @@ img {
   max-height: 75vh;
 }
 
+img.emote {
+  display: inline;
+  max-height: 1.35em;
+  vertical-align: text-bottom;
+}
+
 blockquote {
   padding: 1.5em;
   margin: 0;
