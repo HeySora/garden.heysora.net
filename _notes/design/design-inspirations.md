@@ -47,4 +47,4 @@ Design-wise, there are two things that come to my mind:
 
 ---
 
-I'll definitely go back and add more things in here, but this seed needs time to grow. Feel free to read [[2025]] or [[garden-plans]] for more info. :3 
+I'll definitely go back and add more things in here, but this seed needs time to grow. Feel free to read [[2025]] or [[Garden's plans]] for more info. :3 
