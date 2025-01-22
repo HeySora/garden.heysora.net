@@ -40,7 +40,7 @@ footer {
   padding-top: 1em;
 }
 
-img {
+img, video {
   max-width: 100%;
   display: block;
   margin: 0 auto;
@@ -170,7 +170,7 @@ nav {
 }
 
 .tone-down {
-  filter: brightness(0.8);
+  filter: brightness(0.85);
 }
 
 .text-center {
@@ -181,6 +181,13 @@ nav {
 .text-right {
   display: block;
   text-align: right;
+}
+
+.legend {
+  display: block;
+  text-align: center;
+  font-size: 0.8em;
+  color: $color-subtext;
 }
 
 code {
